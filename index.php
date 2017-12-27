@@ -191,7 +191,7 @@
 	  </div>
     </div>
 	</div>
-	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAG1wy8E-WZuD5kvCYMODyh9fZ2RConDkQ&region=ID&language=id&libraries=places&callback=getLoc" async defer></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyByqh6b0C938T31evhf39B8moLHiuMSeFs&&region=ID&language=id&libraries=places&callback=getLoc" async defer></script>
 	<script type="text/javascript" src="assets/js/map.js"></script>
 </body>
 </html>
