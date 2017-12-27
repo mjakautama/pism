@@ -42,6 +42,7 @@
 #ex1Slider .slider-selection {
     background: #838182;
 }
+
 body {
     margin-top: 100px;
     background-color: #4D4D4D;
@@ -157,7 +158,7 @@ ul.alert-dropdown {
         border: none;
         border-radius: 0;
         overflow-y: auto;
-        background-color: #FCFCFC;
+        background-color: #22313F;
         bottom: 0;
         overflow-x: hidden;
         padding: 10px;
