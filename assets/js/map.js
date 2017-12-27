@@ -1,17 +1,17 @@
-		var map, geocoder, service, circle, myLatlng, radius=1000, status, directionsDisplay, directionsService, myLocation, infoHere;
+		var map, geocoder, service, circle, myLatlng, radius=0, status, directionsDisplay, directionsService, myLocation, infoHere;
 		var markers = [], nearby = [], keyword = [], nearest = [];
 		var homeIcon = 'assets/img/posisi.png';
 		var foundIcon = 'assets/img/pasar.png';
 
 		$(document).ready(function(){
-			radius = $('#ex1').val()*1000;
+			radius = $('#ex1').val();
 			setKeyword();
 		});
 
 		//ini slider buat radius
 		$('#ex1').slider({
 			formatter: function(value) {
-				radius = value*1000;
+				radius = value;
 				$('#radNum').html(value+'Km');
 				return value+" Km";
 			}
@@ -234,7 +234,7 @@
 
 						var content = '<center><b>'+nearest[val].name+'</b></center><hr style="padding:2px; margin:10px;"></hr>'+
 						'Estimasi Perjalanan Darat<br>'+
-						'Jarak Tempuh: '+response.routes[0].legs[0].distance.value/1000 +" Km<br>"+
+						'Jarak Tempuh: '+response.routes[0].legs[0].distance.value +" Km<br>"+
 						'Waktu Tempuh: '+response.routes[0].legs[0].duration.text;
 
 						infoHere.setContent(content);

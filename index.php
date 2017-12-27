@@ -116,8 +116,8 @@
 								<input id="ex1"
 									data-slider-id='ex1Slider'
 									type="text"
-									data-slider-min="3"
-									data-slider-max="30"
+									data-slider-min="1"
+									data-slider-max="10"
 									data-slider-step="1"
 									data-slider-value="15"
 								/>
